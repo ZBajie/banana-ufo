@@ -11,6 +11,7 @@ const PokemonBox = () => {
       {data.map((PokemonData) => {
         return (
           <Pokemon
+            key={PokemonData.id}
             name={PokemonData.name}
             id={PokemonData.id}
             size={PokemonData.size}

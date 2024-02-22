@@ -3,7 +3,9 @@ import "./footer.css"
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>🍌 Banana UFO 🛸</p>
+      <p>
+        🍌 Banana UFO <span className="spaceship ">🛸</span>
+      </p>
       <Button />
     </footer>
   )

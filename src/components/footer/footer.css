@@ -1,3 +1,22 @@
+@keyframes spaceAnimationKeyframe {
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+  30% {
+    left: 20%;
+    bottom: 400%;
+  }
+  50% {
+    left: 50%;
+    bottom: 600%;
+  }
+  100% {
+    left: 300%;
+    bottom: 400%;
+  }
+}
+
 .footer {
   padding: 2rem;
   border-radius: 0 0 10px 10px;
@@ -9,5 +28,9 @@
   align-items: center;
   & p {
     font-size: xx-large;
+  }
+  & .space-animation {
+    position: relative;
+    animation: spaceAnimationKeyframe 5s linear;
   }
 }
