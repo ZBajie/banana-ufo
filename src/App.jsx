@@ -1,7 +1,18 @@
-import "./App.css";
+import "./App.css"
+import Header from "./components/header/header"
+import Footer from "./components/footer/footer"
+import Main from "./components/main/main"
+import PokemonBox from "./components/pokemonbox/pokemonbox"
 
 const App = () => {
-    return <h1>🍌 Hello World! 🛸</h1>;
+  return (
+    <>
+      <Header />
+      <Main />
+      <PokemonBox />
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App

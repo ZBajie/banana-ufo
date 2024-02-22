@@ -1,0 +1,13 @@
+.footer {
+  padding: 2rem;
+  border-radius: 0 0 10px 10px;
+  background-color: antiquewhite;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  & p {
+    font-size: xx-large;
+  }
+}
