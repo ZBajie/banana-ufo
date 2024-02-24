@@ -1,0 +1,24 @@
+{
+  "data": [
+    { "name": "Horse", "legs": "4" },
+    { "name": "Spider", "legs": "8" },
+    { "name": "Snake", "legs": "0" },
+    { "name": "Giraffe", "legs": "4" },
+    { "name": "Elephant", "legs": "4" },
+    { "name": "Octopus", "legs": "8" },
+    { "name": "Ant", "legs": "6" },
+    { "name": "Butterfly", "legs": "6" },
+    { "name": "Lion", "legs": "4" },
+    { "name": "Fish", "legs": "0" },
+    { "name": "Kangaroo", "legs": "2" },
+    { "name": "Duck", "legs": "2" },
+    { "name": "Dog", "legs": "4" },
+    { "name": "Cat", "legs": "4" },
+    { "name": "Penguin", "legs": "2" },
+    { "name": "Rabbit", "legs": "4" },
+    { "name": "Parrot", "legs": "2" },
+    { "name": "Crocodile", "legs": "4" },
+    { "name": "Shark", "legs": "0" },
+    { "name": "Monkey", "legs": "2" }
+  ]
+}
