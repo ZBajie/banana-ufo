@@ -1,10 +1,18 @@
 import "./main.css"
 import Article from "./article/article"
+import PokemonBox from "./../pokemonbox/pokemonbox"
+import AnimalBox from "./../animalbox/animalbox"
 const Main = () => {
   return (
     <main className="main">
-      <Article />
-      <Article />
+      <section className="articles">
+        <Article />
+        <Article />
+      </section>
+      <section className="pokmones-animals">
+        <PokemonBox />
+        <AnimalBox />
+      </section>
     </main>
   )
 }

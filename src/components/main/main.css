@@ -1,6 +1,14 @@
 .main {
-  padding: 2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  padding: 1rem;
+
+  & .articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  & .pokmones-animals {
+    display: flex;
+    flex-direction: row;
+  }
 }
