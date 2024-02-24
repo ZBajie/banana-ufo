@@ -20,8 +20,7 @@ yarn start
 
 Med npm
 
-## Forked by Lars 
-Added component map for exercises.
+
 
 ```
 git clone https://github.com/niklas-mardby/banana-ufo.git
@@ -30,3 +29,6 @@ npm install
 npm run build
 npm run start
 ```
+
+## Forked by Lars 
+Added component map for exercises.
